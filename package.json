@@ -1,0 +1,16 @@
+{
+  "name": "vihsit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A private, offline, de-identified case log for family medicine residents. Paste an EMR schedule; track ACGME requirements.",
+  "license": "MIT",
+  "repository": "github:robbie-med/vihsit",
+  "homepage": "https://robbie-med.github.io/vihsit/",
+  "scripts": {
+    "test": "node --test",
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

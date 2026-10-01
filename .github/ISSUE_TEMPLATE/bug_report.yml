@@ -1,0 +1,32 @@
+name: Bug report
+description: Something parsed wrong, looked wrong, or broke.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚠️ Never paste a real schedule, real names, or anything from a real patient here.
+        Issues are public. If a schedule format is involved, rebuild a sample by hand with invented names, changed ages and generic reasons, keeping the exact layout.
+  - type: checkboxes
+    id: no-phi
+    attributes:
+      label: Privacy
+      options:
+        - label: This issue contains no real patient information.
+          required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include an invented sample schedule if parsing is involved.
+  - type: input
+    id: env
+    attributes:
+      label: Browser and EMR
+      placeholder: Firefox 131, Cerner clinic schedule

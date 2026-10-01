@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a privacy or security problem
+    url: https://github.com/robbie-med/vihsit/security/advisories/new
+    about: Please report anything that could store or leak identifying data privately, not in a public issue.

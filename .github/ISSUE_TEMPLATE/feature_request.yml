@@ -1,0 +1,21 @@
+name: Feature request
+description: An idea for vihsit.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this help you do?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you have in mind
+  - type: checkboxes
+    id: no-phi
+    attributes:
+      label: Privacy
+      options:
+        - label: This request contains no real patient information.
+          required: true

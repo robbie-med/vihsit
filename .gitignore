@@ -1,0 +1,7 @@
+# Never commit real data: backups, exports and local notes stay out of the repo.
+*backup*.json
+*.csv
+CLAUDE.local.md
+node_modules/
+.DS_Store
+Thumbs.db
