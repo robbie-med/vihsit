@@ -2,6 +2,8 @@
 
 **A private case log for family medicine residents.** Paste a day's clinic schedule from the EMR and vihsit keeps a de-identified record of your residency: who you saw, what for, how your continuity is going, and where you stand on ACGME and program requirements. It runs entirely in your browser, works offline, and is blocked from using the network.
 
+> **Built for Cerner (Oracle Health) and athenahealth.** Paste parsing is written and tested against their day-schedule views. Any other EMR works through a simple JSON day file, and sites with no EMR access (nursing homes, away rotations) work through manual entry. See [Supported schedules](#supported-schedules).
+
 [![CI](https://github.com/robbie-med/vihsit/actions/workflows/ci.yml/badge.svg)](https://github.com/robbie-med/vihsit/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Network access: none](https://img.shields.io/badge/network-none%20(CSP%20connect--src%20'none')-informational)
